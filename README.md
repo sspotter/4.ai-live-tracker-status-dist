@@ -6,7 +6,7 @@
   <p><strong>Real-time intelligence monitoring for the evolving AI landscape.</strong></p>
 <img src="Public/image.png" />
 <br>
-  <p><a href="aiscoper.vercel.app">Live Webiste Link.</a></p>
+  <p><a href="https://aiscoper-sand.vercel.app/">Live Webiste Link.</a></p>
 
 </br>
 
@@ -45,7 +45,7 @@
 - **Integrations**: Reddit API (OAuth), YouTube Data API v3, GitHub REST API, Google Gemini API.
 
 ---
-# [AiScoper](aiscoper.vercel.app)
+# [AiScoper](https://aiscoper-sand.vercel.app/)
 ![Website](Public/image.png)
 ![post](Public/image-1.png)
 
