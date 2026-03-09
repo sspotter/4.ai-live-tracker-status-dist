@@ -4,6 +4,11 @@
   <h1>🛰️ AI Radar Dashboard</h1>
   
   <p><strong>Real-time intelligence monitoring for the evolving AI landscape.</strong></p>
+<img src="Public/image.png" />
+<br>
+  <p><a href="aiscoper.vercel.app">Live Webiste Link.</a></p>
+
+</br>
 
   <p>
     <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
@@ -40,7 +45,7 @@
 - **Integrations**: Reddit API (OAuth), YouTube Data API v3, GitHub REST API, Google Gemini API.
 
 ---
-
+# [AiScoper](aiscoper.vercel.app)
 ![Website](Public/image.png)
 ![post](Public/image-1.png)
 
