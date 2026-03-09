@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="100%" alt="AI Radar Dashboard Banner" />
+
   
   <h1>🛰️ AI Radar Dashboard</h1>
   
@@ -41,13 +41,13 @@
 
 ---
 
-![Website](public/image.png)
-![post](public/image-1.png)
+![Website](Public/image.png)
+![post](Public/image-1.png)
 
-![System Status](public/image-2.png)
-![ChatGPT Status](public/image-3.png)
-![Claude Status](public/image-4.png)
-![Google Studio Status](public/image-5.png)
+![System Status](Public/image-2.png)
+![ChatGPT Status](Public/image-3.png)
+![Claude Status](Public/image-4.png)
+![Google Studio Status](Public/image-5.png)
 
 
 | Variable | Description |
