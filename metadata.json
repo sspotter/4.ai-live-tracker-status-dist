@@ -1,0 +1,5 @@
+{
+  "name": "AI Radar Dashboard",
+  "description": "Intelligence dashboard for tracking AI tool releases and developer signals.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,2 @@
+sqlite3 ai-radar.db "SELECT type, name, category_id FROM sources WHERE is_active = 1;"
+

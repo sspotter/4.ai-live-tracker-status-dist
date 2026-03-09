@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans);
+}
+
+/* Theme CSS Variables */
+:root {
+  --bg-primary: #111318;
+  --bg-secondary: #1A1D24;
+  --bg-tertiary: #13151A;
+  --bg-hover: #1E222A;
+  --bg-hover-secondary: #161920;
+  --border: #2A2E39;
+  --border-hover: #3A3E49;
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-dim: #64748b;
+  --card-from: #1A1D24;
+  --card-to: #13151A;
+  --card-hover-from: #1E222A;
+  --card-hover-to: #161920;
+  --overlay: rgba(0, 0, 0, 0.7);
+  --select-bg: transparent;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --bg-hover: #f1f5f9;
+  --bg-hover-secondary: #e2e8f0;
+  --border: #e2e8f0;
+  --border-hover: #cbd5e1;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
+  --card-from: #ffffff;
+  --card-to: #f8fafc;
+  --card-hover-from: #f1f5f9;
+  --card-hover-to: #e2e8f0;
+  --overlay: rgba(0, 0, 0, 0.4);
+  --select-bg: #ffffff;
+}
+
+/* Utility classes for theme */
+.theme-bg-primary { background-color: var(--bg-primary); }
+.theme-bg-secondary { background-color: var(--bg-secondary); }
+.theme-bg-tertiary { background-color: var(--bg-tertiary); }
+.theme-border { border-color: var(--border); }
+.theme-text-primary { color: var(--text-primary); }
+.theme-text-secondary { color: var(--text-secondary); }
+.theme-text-muted { color: var(--text-muted); }
+.theme-text-dim { color: var(--text-dim); }
+
+/* Theme-aware card */
+.theme-card {
+  background: linear-gradient(to bottom right, var(--card-from), var(--card-to));
+  border-color: var(--border);
+}
+.theme-card:hover {
+  background: linear-gradient(to bottom right, var(--card-hover-from), var(--card-hover-to));
+}
+
+/* Theme-aware overlay */
+.theme-overlay { background-color: var(--overlay); }
+
+/* Theme-aware select */
+.theme-select { background-color: var(--select-bg); }
+
+/* Mobile sidebar overlay */
+@media (max-width: 768px) {
+  .sidebar-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 40;
+  }
+  .sidebar-mobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
+  }
+}
