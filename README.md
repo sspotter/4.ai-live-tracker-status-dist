@@ -1,6 +1,6 @@
 <div align="center">
 
-  
+
   <h1>🛰️ AI Radar Dashboard</h1>
   
   <p><strong>Real-time intelligence monitoring for the evolving AI landscape.</strong></p>
@@ -46,12 +46,15 @@
 
 ---
 # [AiScoper](https://aiscoper-sand.vercel.app/)
-![Website](Public/image.png)
+![Website](Public/Down.png)
 ![post](Public/image-1.png)
 
-![System Status](Public/image-2.png)
+
+![System Status](Public/statusup.png)
+
+![System Down](Public/statsudown.png)
+![Chatgpt Status Down](Public/chatgpt_down.png)
 ![ChatGPT Status](Public/image-3.png)
-![Claude Status](Public/image-4.png)
 ![Google Studio Status](Public/image-5.png)
 
 
@@ -63,11 +66,6 @@
 | `REDDIT_CLIENT_SECRET` | Reddit OAuth Client Secret. |
 | `GITHUB_TOKEN` | GitHub Personal Access Token (for higher rate limits). |
 
-### 4. Run the development server
-```bash
-npm run dev
-```
-Open [http://localhost:3008](http://localhost:3008) in your browser.
 
 ---
 
